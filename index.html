@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+
+  <title>Frontend Mentor | IP Address Tracker</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
+    integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI=" crossorigin="" />
+  <script src="https://unpkg.com/leaflet@1.9.3/dist/leaflet.js"
+    integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM=" crossorigin=""></script>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="./script.js" defer></script>
+</head>
+
+<body>
+  <main>
+    <section class="search-area">
+      <div class="search-area__content">
+        <h1 class="search-area__title"> IP Address Tracker</h1>
+        <div class="search-area__search-field">
+          <input class='search-area__input' type="text" placeholder="Search for any IP address or domain
+        ">
+          <button class='search-area__btn' aria-label="search"><img src="./images/icon-arrow.svg" aria-hidden="true"
+              alt=""></button>
+        </div>
+      </div>
+
+      <div class="error-container"></div>
+
+      <div class="data-container">
+        <div class=" ip-address data-container__content">
+          <div class="data-container__title">IP Address</div>
+          <div class="ip-number data-container__data"></div>
+        </div>
+        <hr>
+        <div class="location data-container__content">
+          <div class="data-container__title">Location</div>
+          <div class="location-name data-container__data"></div>
+        </div>
+        <hr>
+        <div class="timezone data-container__content">
+          <div class="data-container__title">Timezone</div>
+          <div class="time data-container__data"></div>
+        </div>
+        <hr>
+        <div class="ISP data-container__content">
+          <div class="data-container__title"> ISP</div>
+          <div class="ISP-name data-container__data"></div>
+        </div>
+    </section>
+
+  <div id="map" class="map-container"></div>
+
+    
+
+
+  </main>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Magdalena Broniszewska</a>.
+  </div>
+</body>
+
+</html>
