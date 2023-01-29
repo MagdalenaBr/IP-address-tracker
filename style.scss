@@ -14,9 +14,8 @@ main {
 }
 
 .search-area {
-
 	position: relative;
-	height: 30vh;
+	height: 28rem;
 	background-image: url("../images/pattern-bg.png");
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -128,15 +127,15 @@ hr {
 		display: flex;
 		min-height: 13.5rem;
 		padding-right: 2rem;
-        &__content {
-            width: 25%;
-            padding: 2rem 1rem;
-            text-align: start;
-        }
-        &__data {
-            padding-top: 1rem;
-            font-size: 2rem;
-        }
+		&__content {
+			width: 25%;
+			padding: 2rem 1rem;
+			text-align: start;
+		}
+		&__data {
+			padding-top: 1rem;
+			font-size: 2rem;
+		}
 	}
 
 	hr {

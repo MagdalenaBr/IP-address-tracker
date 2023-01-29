@@ -19,7 +19,7 @@ main {
 
 .search-area {
   position: relative;
-  height: 30vh;
+  height: 28rem;
   background-image: url("../images/pattern-bg.png");
   background-repeat: no-repeat;
   background-size: cover;
