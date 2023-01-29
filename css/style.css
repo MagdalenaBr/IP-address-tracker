@@ -19,7 +19,7 @@ main {
 
 .search-area {
   position: relative;
-  height: 35vh;
+  height: 30vh;
   background-image: url("../images/pattern-bg.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -79,7 +79,7 @@ main {
 /* DATA */
 .data-container {
   position: absolute;
-  top: 37vh;
+  top: 25rem;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
@@ -117,7 +117,7 @@ hr {
 }
 
 .map-container {
-  height: auto;
+  min-height: 70vh;
 }
 
 .attribution {
@@ -156,6 +156,15 @@ hr {
   hr {
     display: block;
     margin: 4rem 0;
+  }
+}
+
+@media (min-height: 700px) {
+  .search-area {
+    height: 30vh;
+  }
+  .data-container {
+    top: 30vh;
   }
 }
 /*# sourceMappingURL=style.css.map */
