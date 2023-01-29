@@ -19,7 +19,7 @@ main {
 
 .search-area {
   position: relative;
-  height: 35%;
+  height: 35vh;
   background-image: url("../images/pattern-bg.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -117,7 +117,7 @@ hr {
 }
 
 .map-container {
-  min-height: 70%;
+  height: auto;
 }
 
 .attribution {
@@ -156,15 +156,6 @@ hr {
   hr {
     display: block;
     margin: 4rem 0;
-  }
-}
-
-@media (min-height: 700px) {
-  .search-area {
-    height: 30%;
-  }
-  .data-container {
-    top: 30vh;
   }
 }
 /*# sourceMappingURL=style.css.map */

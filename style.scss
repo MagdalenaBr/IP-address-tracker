@@ -14,6 +14,7 @@ main {
 }
 
 .search-area {
+
 	position: relative;
 	height: 35vh;
 	background-image: url("../images/pattern-bg.png");
@@ -144,11 +145,11 @@ hr {
 	}
 }
 
-@media (min-height: 700px) {
-	.search-area {
-		height: 30vh;
-	}
-	.data-container {
-		top: 30vh;
-	}
-}
+// @media (min-height: 700px) {
+// 	.search-area {
+// 		height: 30vh;
+// 	}
+// 	.data-container {
+// 		top: 30vh;
+// 	}
+// }
